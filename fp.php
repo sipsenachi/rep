@@ -13,7 +13,7 @@ $row = $stmt->fetch(PDO::FETCH_OBJ);
 // preluare date in variabile din partide;
 
 $nume =$row->NUME;
-$dins =date_format($row->DINS,"Y-m-d");
+$dins =$row->DINS;
 $decp =$row->DECP;
 $loca =$row->LOCA;
 $dins =$row->DINS;
